@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Ropa+Sans|Pacifico);
+
+body{
+  background-image: url(https://www.blueskyexhibits.com/website/wp-content/uploads/sky-home.jpg);
+}
+
+.container{
+  width:75em;
+  margin:0 auto;
+}
+
+.flightCalc{
+  color:white;
+}
+
+h1{
+  text-align:center;
+  font-size:72px;
+  font-weight:300;
+  color:white;
+  font-family: 'Pacifico', cursive;
+}
+
+.airport{
+  width:39.3%;
+  float:left;
+}
+
+.airport label{
+  text-align:center;
+  font-size:26px;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.airport input{
+  font-size:26px;
+  width:100%;
+  margin:0 auto;
+  padding:.25em;
+  font-family: 'Ropa Sans', sans-serif;
+  color:#02097d;
+}
+
+#from{
+  width:20%;
+  float:left;
+  text-align:center;
+  line-height:3.5em;
+  font-weight:100;
+  font-family: 'Ropa Sans', sans-serif;
+  margin-left: 1%;
+  margin-right: -1%;
+}
+
+.findOut input{
+  font-family: 'Ropa Sans', sans-serif;
+  font-size:36px;
+  width:100%;
+  padding:.5em;
+  margin-top:1em;
+  background:white;
+  color:#02097d;
+  border:0;
+  border-radius:0;
+}
+
+.findOut input:hover{
+  background:#02097d;
+  color:white;
+}
+
+#mileage{
+	text-align:center;
+	font-size:112px;
+	font-family: 'Ropa Sans', sans-serif;
+	color:white;
+	line-height: .25;
+}
+
+@media (max-width: 75em) {
+  
+.airport input{
+  width:100%;
+  float:none;
+}
+  
+#from{
+  width:20%;
+}
+  
+.container{
+  width:100%;
+}
+  
+}
+
+@media (max-width: 48em) {
+  
+   h1{
+    font-size:44px;
+  }
+  
+  .airport{
+    width:100%;
+  }
+  
+  .airport input{
+  width:95%;
+  float:none;
+  }
+  
+  #from{
+    width:100%;
+  }
+  
+  #mileage{
+	text-align:center;
+	font-size:60px;
+	font-family: 'Ropa Sans', sans-serif;
+	color:white;
+	line-height: 1;
+}
+}
